@@ -67,11 +67,23 @@ Sortida:
 
 def tax_calculation_group_1(value: int):
     # Write here your code
+    
+    tax_percent = 19
+    tax = (tax_percent * value) / 100
+
+    return tax
+    
     pass
 
 
 def tax_calculation_global(value: int):
     # Write here your code
+    
+    tax_percent = 24
+    tax = (tax_percent * value) / 100
+
+    return tax
+    
     pass
 
 
