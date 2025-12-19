@@ -49,10 +49,17 @@ Exemple:
 """
 
 
-def sum_list_numbers(
-    list_numbers):
+def sum_list_numbers(list_numbers):
     # Write here your code
-    pass
+   total = 0.0 
+   for number in list_numbers:
+       total += number
+
+
+    
+   return total     
+    
+        pass
 
 
 # Si quieres probar tu código, descomenta las siguientes líneas y
