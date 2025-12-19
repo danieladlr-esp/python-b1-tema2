@@ -49,8 +49,22 @@ Exemple:
 
 
 def kg_to_lb(kg):
-    # Write here your code
-    pass
+    # Write here your co
+    if not isinstance(kg, (int, float)):
+        raise TypeError(f"Se espera un valor numerico")
+
+    if kg <= 0:
+        raise ValueError(f"El valor debe ser mayor que 0")
+
+    lb = kg * 2.20462
+    return round(lb, 2)
+
+
+
+
+
+
+        
 
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
